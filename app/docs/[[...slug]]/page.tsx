@@ -22,8 +22,8 @@ export default async function Page(props: {
       toc={page.data.toc}
       full={page.data.full}
       editOnGithub={{
-        owner: "e1evate-pub",
-        repo: "e1evate",
+        owner: "ScorchInteractive",
+        repo: "ava-e1levate-guides",
         sha: "main",
         // file path, make sure it's valid
         path: `content/docs/${page.file.path}`,
